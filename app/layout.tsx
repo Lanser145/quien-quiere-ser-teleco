@@ -15,13 +15,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es">
+    <html lang="en"> 
       <body 
         className={`${inter.className} antialiased bg-white`}> 
-         {children} {/* Este children es el page.tsx principal */}
-        <footer>Este es el footer</footer>  
+         {children} 
       </body>
-      
     </html>
   );
 }

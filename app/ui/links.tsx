@@ -22,7 +22,7 @@ export default function NavLinks() {
             href={link.href}
             
             className={clsx(
-              'font-light rounded-lg hover:bg-gradient-to-br hover:from-purple-900 hover:via-purple-500 hover:to-purple-700 hover:font-semibold py-2 px-4 shadow-md',
+              'font-mono rounded-xl hover:bg-gradient-to-br hover:from-purple-900 hover:via-purple-500 hover:to-purple-700 hover:font-semibold py-2 px-4 shadow-md',
               {
                 'scale-105 ring-2 ring-teal-200 text-slate-200 bg-gradient-to-br from-purple-900 via-purple-500 to-purple-700 font-semibold': pathname === link.href,
               },
