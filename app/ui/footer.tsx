@@ -5,7 +5,7 @@ import 'react-social-icons/linkedin';
 import 'react-social-icons/tiktok';
 import 'react-social-icons/youtube';
 import 'react-social-icons/x';
-import { orbitron, kode_Mono } from '../ui/fuentes';
+import { orbitron, kode_mono } from '../ui/fuentes';
 import Link from 'next/link';
 
 export default function Footer() {
@@ -75,7 +75,7 @@ export default function Footer() {
         </section>
                     
         <section className="flex mt-4 pl-4 text-xs text-slate-200">
-            <p className={kode_Mono.className}>Diseñado por</p>
+            <p className={kode_mono.className}>Diseñado por</p>
             <p className={`text-indigo-700 pl-2 font-bold ${orbitron.className}`}><b>Sergio Tirado Rosales</b></p>
         </section>
         

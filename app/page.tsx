@@ -43,13 +43,13 @@ export default function Page() {
         </div>
         {/* Contenedor FOTO */}
         <div className="flex w-2/3 rounded-xl bg-neutral-200 items-center justify-center">
-        <Image
+        {/* <Image
         src="/columna-foto.png"
         width={900}
         height={950}
         className="hidden md:block"
         alt="Screenshots of the dashboard project showing desktop version"
-      />
+      /> */}
         </div>
       </div>
       {/* Footer */}
