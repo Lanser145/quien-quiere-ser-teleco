@@ -14,7 +14,7 @@ export default function Page() {
             Nose que poner
           </div>
           <div className="flex h-1/3 min-w-full bg-[rgba(74,189,154,0.35)] rounded-xl justify-center items-center border-l-2 border-r-2 border-dotted border-red-700">
-            ""SAME""
+            SAME
           </div>
           <div className="flex h-1/3 min-w-full rounded-xl bg-[rgba(164,189,74,0.35)] justify-center items-center border-t-2 border-l-2 border-r-2 border-dotted border-red-700">
             <button className="bg-gradient-to-br from-purple-700 via-purple-600 to-purple-800 hover:from-purple-800 hover:via-purple-700 hover:to-purple-900 text-white font-bold py-3 px-6 rounded-full shadow-md transition duration-300 ease-in-out">
@@ -28,7 +28,7 @@ export default function Page() {
             Nose que poner
           </div>
           <div className="flex h-1/3 min-w-full bg-neutral-200 rounded-xl justify-center items-center border-l-2 border-r-2 border-dotted border-red-700">
-            ""SAME""
+            SAME
           </div>
           <div className="flex h-1/3 gap-4 min-w-full bg-neutral-200 rounded-xl justify-center items-center border-t-2 border-l-2 border-r-2 border-dotted border-red-700">
             <button className="bg-gradient-to-br from-purple-700 via-purple-600 to-purple-800 hover:from-purple-800 hover:via-purple-700 hover:to-purple-900 text-white font-bold py-3 px-6 rounded-full shadow-md transition duration-300 ease-in-out">
