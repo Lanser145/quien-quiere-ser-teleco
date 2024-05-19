@@ -47,7 +47,7 @@ export default function Page() {
         src="/columna-foto.png"
         width={900}
         height={950}
-        className="hidden md:block"
+        className="hidde md:block"
         alt="Screenshots of the dashboard project showing desktop version"
       /> */}
         </div>
