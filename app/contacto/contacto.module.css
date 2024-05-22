@@ -1,0 +1,142 @@
+/* Animación de escritura */
+.typingAnimation {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto; /* Establecer el origen en el medio */
+    width: 0; /* Mínima anchura para ocultar el texto */
+    animation: fadeIn 1s ease-in-out, typingAnimation 6s steps(60, end) 1s forwards;
+    }
+
+@keyframes typingAnimation {
+        from {
+            width: 0;
+        }
+        to {
+            width: 100%;
+        }
+      }
+
+@keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+/* preguntasfrecuentes.module.css */
+
+/* Animation 1: fadeIn */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Animation 2: slideInLeft */
+@keyframes slideInLeft {
+  from { transform: translateX(-100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+.slideInLeft {
+  animation: slideInLeft 1s ease-in-out;
+}
+
+/* Animation 3: slideInRight */
+@keyframes slideInRight {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+.slideInRight {
+  animation: slideInRight 1s ease-in-out;
+}
+
+/* Animation 4: bounceIn */
+@keyframes bounceIn {
+  from, 20%, 40%, 60%, 80%, to { transform: translateY(0); }
+  0% { transform: translateY(-1000px); opacity: 0; }
+  20% { transform: translateY(30px); opacity: 1; }
+  40% { transform: translateY(-10px); }
+  60% { transform: translateY(5px); }
+  80% { transform: translateY(-2px); }
+}
+
+.bounceIn {
+  animation: bounceIn 1s ease-in-out;
+}
+
+/* Animation 5: zoomIn */
+@keyframes zoomIn {
+  from { transform: scale(0); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.zoomIn {
+  animation: zoomIn 1s ease-in-out;
+}
+
+/* Animation 6: rotateIn */
+@keyframes rotateIn {
+  from { transform: rotate(-200deg); opacity: 0; }
+  to { transform: rotate(0); opacity: 1; }
+}
+
+.rotateIn {
+  animation: rotateIn 1s ease-in-out;
+}
+
+/* Animation 7: flipInX */
+@keyframes flipInX {
+  from { transform: perspective(400px) rotateX(90deg); opacity: 0; }
+  to { transform: perspective(400px) rotateX(0); opacity: 1; }
+}
+
+.flipInX {
+  animation: flipInX 1s ease-in-out;
+}
+
+/* Animation 8: flipInY */
+@keyframes flipInY {
+  from { transform: perspective(400px) rotateY(90deg); opacity: 0; }
+  to { transform: perspective(400px) rotateY(0); opacity: 1; }
+}
+
+.flipInY {
+  animation: flipInY 1s ease-in-out;
+}
+
+/* Animation 9: lightSpeedIn */
+@keyframes lightSpeedIn {
+  from { transform: translateX(100%) skewX(-30deg); opacity: 0; }
+  60% { transform: translateX(-20%) skewX(20deg); opacity: 1; }
+  80% { transform: translateX(5%) skewX(-5deg); }
+  to { transform: translateX(0); }
+}
+
+.lightSpeedIn {
+  animation: lightSpeedIn 1s ease-out;
+}
+
+/* Animation 10: jackInTheBox */
+@keyframes jackInTheBox {
+  from { opacity: 0; transform: scale(0.1) rotate(30deg); transform-origin: center bottom; }
+  50% { transform: rotate(-10deg); }
+  70% { transform: rotate(3deg); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.jackInTheBox {
+  animation: jackInTheBox 1s ease-in-out;
+}
+
+  
+
+
+  
+  

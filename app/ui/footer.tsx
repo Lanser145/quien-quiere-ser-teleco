@@ -10,7 +10,7 @@ import Link from 'next/link';
 
 export default function Footer() {
     return (
-    <footer className="bg-[rgba(82,111,175,0.41)]">     
+    <footer className="bg-gradient-to-br from-purple-700 via-purple-500 to-purple-900">     
         {/* REDES SOCIALES */}
         <section className="flex items-center justify-center mt-4"> 
             <a
@@ -22,6 +22,7 @@ export default function Footer() {
             >
                 <SocialIcon as="div" network="facebook" bgColor="transparent" fgColor="currentColor"/>
             </a>
+            {/* <Twitter />https://lucide.dev/guide/packages/lucide-react */}
             <a
                 href="https://www.instagram.com/telecorenta/"
                 target="_blank"
@@ -76,7 +77,7 @@ export default function Footer() {
                     
         <section className="flex mt-4 pl-4 text-xs text-slate-200">
             <p className="font-mono">Diseñado por</p>
-            <p className={`text-indigo-700 pl-2 font-bold ${orbitron.className}`}><b>Sergio Tirado Rosales</b></p>
+            <p className={`text-indigo-800 pl-2 font-bold ${orbitron.className}`}><b>Sergio Tirado Rosales</b></p>
         </section>
         
         <section className={"flex text-sm font-mono space-x-6 pr-4 mt-4 pb-4 justify-end"}>     

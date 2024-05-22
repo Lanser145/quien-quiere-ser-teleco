@@ -1,0 +1,77 @@
+/* Animación de mostrar de abajo a arriba */
+.fadeInUp {
+  animation: fadeInUp 1s ease-in-out;
+}
+
+/* Animación de resaltar y mostrar a la vez */
+.pulse {
+  animation: fadeIn 1.5s ease-in-out, pulse 1s ease-in-out;
+}
+
+/* Animación de escritura */
+.typingAnimation {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto; /* Establecer el origen en el medio */
+  width: 0; /* Mínima anchura para ocultar el texto */
+  animation: fadeIn 1s ease-in-out, typingAnimation 6s steps(60, end) 1s forwards;
+  }
+
+  .typingAnimationlesstime {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto; /* Establecer el origen en el medio */
+    width: 0; /* Mínima anchura para ocultar el texto */
+    animation: fadeIn 1s ease-in-out, typingAnimation 3s steps(60, end) forwards;
+    }
+
+@keyframes typingAnimation {
+      from {
+          width: 0;
+      }
+      to {
+          width: 100%;
+      }
+    }
+
+@keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.25);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Animation 2: slideInLeft */
+@keyframes slideInLeft {
+  from { transform: translateX(-100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+.slideInLeft {
+  animation: slideInLeft 1s ease-in-out;
+}
